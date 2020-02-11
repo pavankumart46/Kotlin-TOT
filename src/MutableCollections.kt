@@ -34,6 +34,9 @@ fun main(){
     val index = s.nextInt()
 
     ml.removeAt(index)
+    /*ml.removeAll(mutableListOf<Students>(Students("Pavan",18),Students("Anusha",33)))*/
+
+
 
     println("After the removal - the values are as follows")
     for(i in ml){
